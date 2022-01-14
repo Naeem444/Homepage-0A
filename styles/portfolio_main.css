@@ -1,8 +1,9 @@
 body {
   width: 100%;
-  background-color: #f2f2f2;
   background-size: 100%;
   overflow-x: hidden;
+  margin: 0%;
+  padding: 0;
 }
 
 .headline {
@@ -186,7 +187,7 @@ img {
   padding-left: 40px;
   font-size: 2.5em;
   width: 50%;
-  margin-top: 33vh;
+  margin-top: 40vh;
 }
 
 .right-para-p {
@@ -279,31 +280,31 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
   border-radius: 15px;
-
+  background-color: #f2f2f2;
 }
 
 input[type="submit"] {
   padding: 12px 20px;
   border: none;
 
-  margin-left: 20px;
+  margin-left: 0px;
 
   cursor: pointer;
 }
 
 .container {
   border-radius: 20px;
-  background-color: #f2f2f2;
+
   padding: 10px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+  align-items: center;
 }
-
 .row:after {
   content: "";
   display: table;
